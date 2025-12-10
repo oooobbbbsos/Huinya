@@ -61,9 +61,9 @@
 
 *   **Формула:**
     Необходимое условие (стационарность):
-     ```math
-\nabla f(\vec{x}^*) = \left\{ \frac{\partial f}{\partial x_1}, \dots, \frac{\partial f}{\partial x_n} \right\}^T = \vec{0}
-    ```
+    $$
+    \nabla f(\vec{x}^*) = \left\lbrace \frac{\partial f}{\partial x_1}, \dots, \frac{\partial f}{\partial x_n} \right\rbrace^T = \vec{0}
+    $$
     Достаточное условие (через критерий Сильвестра для матрицы Гессе $H$):
     $$H = \left[ \frac{\partial^2 f}{\partial x_i \partial x_j} \right], \quad \Delta_k > 0 \quad \forall k=1\dots n$$
     где $\Delta_k$ — главные угловые миноры матрицы Гессе.
